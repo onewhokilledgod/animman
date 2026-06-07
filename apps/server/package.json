@@ -14,8 +14,6 @@
 	"license": "ISC",
 	"packageManager": "pnpm@10.12.1",
 	"dependencies": {
-		"@animman/config": "workspace:*",
-		"@animman/shared": "workspace:*",
 		"@prisma/client": "^7.8.0",
 		"@prisma/extension-accelerate": "^3.0.1",
 		"@tma.js/init-data-node": "^2.0.7",
