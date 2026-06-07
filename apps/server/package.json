@@ -20,7 +20,7 @@
 		"@prisma/extension-accelerate": "^3.0.1",
 		"@tma.js/init-data-node": "^2.0.7",
 		"@tma.js/types": "^1.0.2",
-		"axios": "^1.16.1",
+		"axios": "^1.17.0",
 		"cookie-parser": "^1.4.7",
 		"cors": "^2.8.6",
 		"express": "^5.2.1",
