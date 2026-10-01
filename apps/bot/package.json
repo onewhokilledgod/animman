@@ -14,11 +14,11 @@
 	"license": "ISC",
 	"packageManager": "pnpm@10.12.1",
 	"dependencies": {
-		"axios": "^1.16.1",
-		"grammy": "^1.43.0"
+		"axios": "^1.20.0",
+		"grammy": "^1.46.0"
 	},
 	"devDependencies": {
-		"@types/node": "^25.9.1",
+		"@types/node": "^26.6.3",
 		"nodemon": "^3.1.14",
 		"ts-node": "^10.9.2",
 		"tsconfig-paths": "^4.2.0"
