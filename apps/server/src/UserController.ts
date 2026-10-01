@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { parse, isValid, type InitData } from "@telegram-apps/init-data-node";
+import { parse, isValid, type InitData } from "@tma.js/init-data-node";
 import jwt from "jsonwebtoken";
 import prisma from "@animman/server/prisma";
 import InitDataError from "@animman/server/errors/initDataError";
@@ -34,7 +34,7 @@ class UserController {
 			err instanceof Error
 				? res.status(400).json({
 						error: `${err.name}: ${err.message}`
-				  })
+					})
 				: null;
 			return;
 		}
@@ -74,7 +74,7 @@ class UserController {
 			err instanceof Error
 				? res.status(400).json({
 						error: `${err.name}: ${err.message}`
-				  })
+					})
 				: null;
 			return;
 		}
