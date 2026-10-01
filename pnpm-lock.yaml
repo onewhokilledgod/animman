@@ -49,12 +49,6 @@ importers:
 
   apps/server:
     dependencies:
-      '@animman/config':
-        specifier: workspace:*
-        version: link:../../packages/config
-      '@animman/shared':
-        specifier: workspace:*
-        version: link:../../packages/shared
       '@prisma/client':
         specifier: ^7.8.0
         version: 7.8.0(prisma@7.8.0(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(typescript@5.9.3)
