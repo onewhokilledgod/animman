@@ -17,7 +17,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "webpack serve --open --env mode=development",
-		"build": "pnpm -F @animman/server exec prisma generate --no-engine && webpack --env mode=production"
+		"build": "node ./esbuild.config.mts"
 	},
 	"devDependencies": {
 		"@types/react": "^19.3.0",
