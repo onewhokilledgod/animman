@@ -16,10 +16,11 @@
 	"main": "index.js",
 	"private": true,
 	"scripts": {
-		"dev": "webpack serve --open --env mode=development",
-		"build": "node ./esbuild.config.mts"
+		"dev": "node ./esbuild.config.ts dev",
+		"build": "node ./esbuild.config.ts"
 	},
 	"devDependencies": {
+		"@types/node": "^25.9.1",
 		"@types/react": "^19.3.0",
 		"@types/react-dom": "^19.3.0",
 		"css-loader": "^7.1.5",
@@ -39,6 +40,7 @@
 	"dependencies": {
 		"@animman/config": "workspace:*",
 		"@animman/shared": "workspace:*",
+		"@jgoz/esbuild-plugin-html": "^2.0.0",
 		"@telegram-apps/telegram-ui": "^2.1.13",
 		"@twa-dev/sdk": "^8.0.2",
 		"axios": "^1.20.0",
