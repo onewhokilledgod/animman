@@ -2,7 +2,8 @@
 	"extends": "../../packages/config/tsconfig.base.json",
 	"compilerOptions": {
 		"rootDir": ".",
-		"outDir": "./dist/"
+		"outDir": "./dist/",
+		"types": ["node"]
 		// "plugins": [
 		//   {
 		//     "name": "typescript-plugin-css-modules",
@@ -12,5 +13,9 @@
 		//   }
 		// ]
 	},
-	"include": ["src", "../../packages/shared/src/declarations/media.d.ts"]
+	"include": [
+		"src",
+		"../../packages/shared/src/declarations/media.d.ts",
+		"./esbuild.config.ts"
+	]
 }
